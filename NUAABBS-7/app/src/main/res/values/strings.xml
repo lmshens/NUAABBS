@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">南航吧</string>
+    <string name="main_title">南航吧</string>
+    <string name="login_act_title">登录</string>
+    <string name="register_act_title">注册</string>
+    <string name="system_setting_act_title">设置</string>
+    <string name="user_detail_act_title">详细信息</string>
+    <string name="change_user_detail_act_title">修改信息</string>
+    <string name="search_act_title">搜索</string>
+    <string name="create_post_act_title">创建</string>
+    <string name="my_post_act_title">我的帖子</string>
+    <string name="my_draft_act_title">我的草稿</string>
+    <string name="my_care_act_title">我的关注</string>
+    <string name="my_collect_act_title">我的收藏</string>
+    <string name="post_content_act_title">详情</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Search</string>
+    <string name="nav_header_title">未登录</string>
+    <string name="nav_header_subtitle">登录以查看更多！</string>
+
+    <string name="post_label_hot">热点</string>
+    <string name="post_label_life">生活</string>
+    <string name="post_label_study">学习</string>
+
+    <string name="drawer_menu_post">我的帖子</string>
+    <string name="drawer_menu_draft">我的草稿</string>
+    <string name="drawer_menu_care">我的关注</string>
+    <string name="drawer_menu_collect">我的收藏</string>
+    <string name="drawer_menu_title">Tools</string>
+    <string name="drawer_menu_setting">系统设置</string>
+    <string name="drawer_menu_logout">退出登录</string>
+
+    <string name="wait">Wait for later update !</string>
+    <string name="app_name_version">南京航空航天大学专属贴吧 v1.0</string>
+    <string name="app_developer">copyright @ nuaa teamPlus</string>
+</resources>
