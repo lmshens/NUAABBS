@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/comment_detail2_head"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_head_5"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/comment_detail2_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="80dp"
+            android:background="@drawable/textview_selector"
+            android:layout_marginBottom="4dp"
+            android:maxEms="10"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/colorLightBlue"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:id="@+id/small_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/comment_detail2_reply_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:text="回复 "/>
+
+            <TextView
+                android:id="@+id/comment_detail2_send_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:background="@drawable/textview_selector"
+                android:maxEms="10"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textColor="@color/colorLightBlue"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/comment_detail2_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_selector"
+            android:visibility="gone"
+            android:minHeight="20dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack1"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:id="@+id/comment_detail2_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/reply_text_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_selector"
+                android:layout_marginLeft="20dp"
+                android:textSize="10sp"
+                android:text="回复"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="100dp"
+    android:background="#ffffff">
+
+    <EditText
+        android:id="@+id/et_discuss"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="32dp"
+        android:maxHeight="150dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/round_edittext"
+        android:scrollbars="vertical"
+        android:padding="5dp"
+        android:ellipsize="end"
+        android:textColorHint="#a2a2a2"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="50dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape1"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/colorWhite"
+        android:text="提交"/>
+
+</LinearLayout>
